@@ -75,7 +75,7 @@ func:
 
 ### Згідно з моїм варіантом, моїм завданням було створити зчитувач elf файлів
 
-`#include <stdio.h>
+```#include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
 #include <elf.h>
@@ -191,4 +191,4 @@ int main(int argc, char *argv[]) {
     load_elf_file(argv[1]);
 
     return 0;
-}`
+}```
